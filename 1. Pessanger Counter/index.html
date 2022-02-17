@@ -1,0 +1,23 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>Passenger Counter</title>
+    </head>
+    <body>
+        <h1>Passengers Entered</h1>
+        <h2 class="count" id="count-el">0</h2>
+        <!-- Creating an Increment button with 
+        id="increment-btn" -->
+        <button id="increment-btn" class="increment-btn" 
+        onclick="increment()">
+            Increment
+        </button>
+        <!-- Create a save button with 
+        id="save-btn" -->
+        <button id="save-btn" class="save-btn"
+        onclick="save()">Save</button>
+        <p id="save-el" class="save-el"
+        >Previous Enteries : </p>
+        <script src="index.js"></script>
+    </body>
+</html>

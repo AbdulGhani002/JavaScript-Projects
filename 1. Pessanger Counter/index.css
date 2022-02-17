@@ -1,0 +1,48 @@
+body
+{
+    background-color: blue;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+h1
+{
+  margin: auto;
+  font-size: 50px;  
+  color: white;
+}
+.count
+{
+   color: white;
+   font-size: 40px;
+   margin: auto;
+   
+}
+button
+{
+    border: none;
+    padding: 10px 10px;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+    margin: 5px 5px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+button:hover
+{
+    background: olive;
+}
+.increment-btn
+{
+    background: darkred;
+}
+.save-btn
+{
+    background: cadetblue;
+}
+.save-el {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
