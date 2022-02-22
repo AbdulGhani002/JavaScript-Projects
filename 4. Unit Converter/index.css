@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    color:red !important;
+    color:black !important; 
+    font-weight: bolder;
+    flex-direction: column;
+    align-items: center;
+    background-image:  linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(311deg 100% 25%) 10%,
+  hsl(334deg 100% 40%) 20%,
+  hsl(6deg 98% 61%) 30%,
+  hsl(37deg 100% 50%) 40%,
+  hsl(55deg 100% 50%) 50%,
+  hsl(62deg 100% 47%) 60%,
+  hsl(71deg 100% 48%) 70%,
+  hsl(81deg 100% 49%) 80%,
+  hsl(92deg 100% 49%) 90%,
+  hsl(124deg 100% 50%) 100%
+);
+background-repeat: no-repeat;
+}
+button{
+    padding: 5px 5px;
+    margin: 10px 10px;
+    color: #0984e3;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #0984e3;
+    transition: all 0.5s ease-in-out 0s;
+}
+button:hover{
+    background: #0984e3;
+    color: white;
+}
+h3 , h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
