@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Method</title>
+    <script>
+        let a = "99";
+        let b = Number(a);
+        document.write(b , "<br>");
+        document.write(b + 11 , "<br>");
+        let c = true;
+        let d = Number(c);
+        document.write(d , "<br>");
+        let e = false;
+        let f = Number(e);
+        document.write(f , "<br>");
+        //parseint returns value in integers
+        let g = "080.28";
+        let h = parseInt(g);
+        document.write(h , "<br>");
+        let i = "080.2800";
+        let j = parseFloat(i);
+        document.write(j , "<br>");
+        let k = 200;
+        let l = isFinite(k);
+        document.write(l , "<br>");
+        let m = 100;
+        let n = Number.isInteger(m);
+        document.write(n , "<br>");
+        let o = 100.89889;
+        let p = Number.isInteger(o);
+        document.write(p , "<br>");
+        let q = 100.89889;
+        let r = q.toFixed(2);
+        document.write(r , "<br>");
+        let s = 100.276;
+        let t = s.toPrecision(2);
+        document.write(t , "<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

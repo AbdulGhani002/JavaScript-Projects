@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Operators</title>
+    <script>
+        //(=) is first assignment operator. it gives value to a variable or make a string
+        let a = 24;
+        let b = 30;
+        a = a + 1;
+        let c = a + b;
+        document.write(c , "<br>");
+        a += b
+        document.write(a)
+        let d = 12;
+        d -= b
+        document.write("<br>" , d);
+        let e = 50;
+        let f =25;
+        e *= f;
+        document.write("<br>" , e);
+        let g = 10;
+        let h = 2;
+        g /= h;
+        document.write("<br>" , g);
+        let i = 15;
+        let j = 7;
+        i %= j;
+        document.write("<br>" , i);
+        let k = 10;
+        let l = 10;
+        k **= l;
+        document.write("<br>" , k);
+        // Left Shift Bit Operator
+        // m = 00000100
+        // Expected answer is 00010000 = 16
+        let m = 4;
+        let n = 2;
+        m <<= n;
+        document.write("<br>" , m);
+        // Right Shift Bit Operator
+        // o = 00010100
+        // Expected Output is 2
+        let o = 20;
+        o >>= 3;
+        document.write("<br>" , o);
+        // Bitwise AND Operator
+        let p = 5;
+        p &= 5;
+        document.write("<br>" , p);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

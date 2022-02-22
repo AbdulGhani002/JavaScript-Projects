@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClassList Methods</title>
+  </head>
+  <body>
+    <div class="classs">
+      <h1 class="class1">Hello, world!</h1>
+      <h3 class="class2">Hi there</h3>
+      <h3 class="class3">CLass 3</h3>
+    </div>
+    <script>
+      document
+        .getElementsByClassName("class")
+        .addEventListener("click", function () {
+          this.style.backgroundColor = "black";
+          this.style.color = "white";
+        });
+    </script>
+  </body>
+</html>

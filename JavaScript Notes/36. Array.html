@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Array</title>
+    <script>
+        document.write("Console");
+        
+        let i = [1,20,30,50,50,true,"Abdul Ghani"]
+        for(let a = 0; a <= 6; a++){
+          console.log(i[a]);
+
+        }
+        let j = [1,20,30,50,50,true,"Abdul Ghani"]
+        for(let c = 0; c <= 6; c++){
+          console.log(j[c]);
+
+        }
+        console.log(i[2]);
+      let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+      arr.forEach(function (ag) {
+        console.log(ag);
+      });
+      let brr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+      brr.forEach(function (bg , index, array) {
+        console.log(bg , index , array);
+      });
+      let obj = {
+        name: "Abdul Ghani",
+        age: "16",
+        type: "Dangerous Programmer",
+        os: "ubuntu",
+      };
+      for (let key in obj) {
+        console.log(obj[key]);
+      }
+      let data = {
+        name: "Abdul Ghani",
+        age: "16",
+        type: "Dangerous Programmer",
+        os: "ubuntu",
+      };
+      for (let mydata in data) {
+        console.log(`The ${mydata} of programmer is ${data[mydata]}`)
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

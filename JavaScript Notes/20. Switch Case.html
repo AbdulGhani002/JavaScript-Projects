@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <script>
+        let day = 1;
+        switch (day) {
+            case 1:
+                document.write("Today is Monday");
+                break;
+                case 2:
+                document.write("Today is Tuesday");
+                break;
+                case 3:
+                document.write("Today is Wednesday");
+                break;
+                case 4:
+                document.write("Today is Thursday");
+                break;
+                case 5:
+                document.write("Today is Friday");
+                break;
+                case 6:
+                document.write("Today is Saturday");
+                break;
+                case 7:
+                document.write("Today is Sunday");
+                break;
+            default:
+                document.write("Please Ender Valid Day Number" ,);
+                break;
+        }
+        document.write("<br>");
+        let age = 15;
+        switch (true) {
+            case (age >=15 && age <= 25):
+                document.write("You Are Eligible");
+                break;
+            case (age >25 && age <= 100):
+                document.write("You Are Not Eligible");
+                break;
+            default:
+                document.write("Please Enter valid Age");
+                break;
+        }
+        document.write("<br>");
+        let week = 2;
+        switch (week) {
+            case 1: case 2: case 3: case 4:
+                document.write("January");
+                document.write("<br>" , "<b>2022</b>");
+                break;
+        
+            default:
+                document.write("Please Enter Valid Week Number");
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

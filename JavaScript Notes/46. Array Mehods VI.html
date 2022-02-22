@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Method VI</title>
+    <script>
+        // answer true if only one value is true
+        let ages = [12,13,14,15,16,17,18,18,19,20,21,22,23,24,25,26,27];
+        document.write(ages);
+        function adult(ages) {
+            return ages >= 18;
+        }
+        let b = ages.some(adult);
+        document.write(b , "<br>");
+        // answer is true only if all values are true
+        let c = ages.every(adult);
+        document.write(c, "<br>");
+        // find finds the value
+        let i = ages.find(adult);
+        function adult(ages) {
+            return ages >= 18;
+        }
+        document.write(i , "<br>");
+        let j = ages.findIndex(adult);
+        function adult(ages) {
+            return ages >= 18;
+        }
+        document.write(j);
+        // findindex finds index of  desired value
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

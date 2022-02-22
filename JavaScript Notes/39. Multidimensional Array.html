@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Multidimensional Array</title>
+    <script>
+        let ag = [
+            ["Abdul Ghani", 16, "Male", "BS CY", "ECCU"],
+            ["Abdullah", 16, "Male", "BS CY", "ECCU"],
+            ["Sarah", 16, "Female", "BS CY", "ECCU"],
+            ["Faizan Ali", 16, "Male", "BS CY", "ECCU"]
+        ];
+        document.write("<table border = '1px solid red'>")
+        for( let a = 0; a < ag.length; a++){
+            document.write("<tr>");
+            for (let b = 0; b < ag.length; b++){
+
+                document.write( "<td>" , ag[a][b] , " </td> ");
+            }
+            document.write("</tr>");
+            document.write("<br>");
+        }
+        document.write("</table>");
+        document.write(ag.length);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

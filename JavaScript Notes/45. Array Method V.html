@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array Method V</title>
+    <script>
+        // Proves element is array or not
+        let a = ["John", "Johnson", "Ali"];
+        let b = Array.isArray(a);
+        document.write(b);
+        let i = "This is not array";
+        let x = Array.isArray(i);
+        if (x == "true") {
+            document.write("This is an Array");
+        } else {
+            document.write("<br>This is not an Array<br>");
+        }
+        let ag = ["John", "Sara", "Ronaldo", "Johnson", "Roman", "Sara"];
+        document.write(ag, "<br><br>");
+        let ag1 = ag.indexOf("Johnson");
+        document.write(ag1, "<br>");
+        let ag2 = ag.indexOf("Sara", 3);
+        document.write(ag2, "<br>");
+        let ag3 = ag.indexOf("Ali");
+        document.write(ag3);
+        let ag5 = ag.indexOf("Ronaldo");
+        document.write("<br>", ag5);
+        let ag4 = ag.lastIndexOf("Ronaldo");
+        document.write("<br>", ag4);
+        let xyz = ag.includes("Sara");
+        document.write( "<br>" , xyz , "<br>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merit Calculator</title>
+    <script>
+        let percentage = prompt("Enter Your Percentage :");
+        if(percentage >=80 && percentage <= 100){
+            document.write("You are selected in merit");
+        }
+         else if(percentage >=60 && percentage < 80){
+            document.write("You are passed with 1<sup>st</sup> division");
+        }
+        else if(percentage >=45 && percentage  < 60){
+            document.write("You are passed with 2<sup>nd</sup> division");
+        }
+        else if(percentage >45 && percentage < 33){
+            document.write("You are passed with 3<sup>rd</sup> division");
+        }
+        else if(percentage <= 33){
+            document.write("You are fail");
+        }
+        else {
+            document.write("Please Enter a Valid Percentage");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

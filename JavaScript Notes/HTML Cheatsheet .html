@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="mx-4 my-4 bg-purple-500 transition-all duration-1000 ease-in-out hover:text-white 
+        color-white-800 px-5 py-5 hover:bg-purple-800 text-white-300 hover:text-white font-bold
+         rounded-full text-center text-slate-900 transition-all duration-1000 ease-in-out"
+      >
+        <h1>HTML Cheatsheet</h1>
+      </nav>
+    </header>
+    <table
+      class="table-auto md:shrink-0  dark:bg-slate-900 dark:text-white text-xl hover:text-2xl border-2 text-center hover:border-4 border-slate-300"
+    >
+      <thead class="px-5 py-5">
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 
+          ease-in-out hover:text-white"
+        >
+          <th
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Usage
+          </th>
+          <th
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Element
+          </th>
+          <th
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Example
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            A Link
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;a&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            <code
+              >&lt;a href="https://example.org"&gt; A link to example.org &lt;
+              /a &gt;</code
+            >
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            An image
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;img&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;img src="https://example.org"&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            An inline container
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;span&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;span&gt; I am a Span &lt;/span &gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          The Head
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;head&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;head&gt;I am Head of HTML File&lt/head&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Link
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;link&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;link&gt;I am used to link a file
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Meta Data
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;meta&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;meta&gt;I am a meta tag I shows Meta Data;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+         Style
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;style&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;style&gt;You Can Write CSS in Me&lt;/style&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Body
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;body&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;body&gt;I am the body of HTML Page&lt;/body&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Article
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;article&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;article&gt;The HTML article element represents a self-contained composition in a document, page,
+              application, or site, which is intended to be independently distributable or reusable (e.g., in
+              syndication).&lt;/article&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Header
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;header&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;header&gt;I am Header&lt;/header&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Foooter
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;footer&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;footer&gt;I am footer&lt;/footer&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Main
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;main&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;main&gt;I am main contain of body&lt;/main&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Navbar
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;nav&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;nav&gt;I am navbar I provide Navigation Links&lt;/nav&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Section
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;section&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;section&gt;I am a section of body&lt;/section&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Same
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;pre&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;pre&gt;I am a pre of body&lt;/pre&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Abbreviation
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;abbr&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;abbr&gt;I am a abbreviation of body&lt;/abbr&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Track
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;track&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;track&gt;I am a section of audio
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Javascript
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;script&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;script&gt;I am a script of html&lt;/script&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Delete
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;del&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;del&gt;I am a deleted part of body&lt;/del&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Ins
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;ins&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;ins&gt;I am a ins that is used to add senntences in  body&lt;/ins&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Caption
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;caption&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;caption&gt;I am a caption of table&lt;/caption&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;table&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;table&gt;I am a table of body&lt;/table&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table Head
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;thead&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;thead&gt;I am a table head of table&lt;/thead&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table Row
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tr&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tr&gt;I am a table row of table&lt;/tr&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table Data
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;td&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;td&gt;I am the data of table cells&lt;/td&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table Headings
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;th&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;th&gt;I am a heading of Table Head&lt;/th&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Table Foot
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tfoot&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tfoot&gt;Table Foot consists of set of rows having summary of table&lt;/tfoot&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Buttons
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;button&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;button&gt;I am a button&lt;/button&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Data List
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;datalist&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;datalist&gt;I am a DataList&lt;/datalist&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Field Set
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;fieldset&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;fieldset&gt;I am a Fieldset of form&lt;/fieldset&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            HTML
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;html&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;html&gt;Starts Your HTML File&lt;/html&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Typewriter
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tt&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;tt&gt;Writes text like typewriter&lt;/tt&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Sample
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;sample&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;sample&gt;I am font&lt;/sample&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Font
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;font&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;font&gt;Defines font used in CSS&lt;/font&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Picture
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;picture&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;picture&gt;I can control many images&lt;/picture&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Text Direction
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;bdo&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;bdo&gt;I can change text dirction&lt;/bdo&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Keyboard Keys
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;kbd&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;kbd&gt;I can show keyboard keys&lt;/kbd&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Input
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;input&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;input&gt;I am a input of a form&lt;/input&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Aside
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;aside&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;aside&gt;I am a aside section of body&lt;/aside&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Label
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;label&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;albel&gt;I am a label of a tag(Caption of a tag)&lt;/albel&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Legend
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;legend&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;legend&gt;Lagend represents the caption of fieldset&lt;/legend&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Option Group
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;optgroup&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;optgroup&gt;I can make a group of options&lt;/optgroup&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Option
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;option&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;option&gt;I can create an option consists of many values&lt;/option&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Progress
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;progress&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;progress&gt;I can make a progress bar&lt;/progress&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Select
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;select&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;select&gt;You can select options with the help of me&lt;/select&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Textarea
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;textarea&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;textarea&gt;I can provide a textarea for you&lt;/textarea&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Figure
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;figure&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;figure&gt;igure Caption element represents a caption or legend describing&lt;/figure&gt;
+          </td>
+        </tr>
+        <tr class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white">
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            Figure Caption
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;figcaption&gt;
+          </td>
+          <td class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white">
+            &lt;figcaption&gt;Figure Caption element represents a caption or legend describing
+            the rest of the contents of its parent element&lt;/figcaption&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Emphasize text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;em&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;em&gt;I'm Emphasized&lt/em&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Italic text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;i&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;i&gt;Italic text&lt/i&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Bold text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;b&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;b&gt;Bold Text&lt/b&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            Important Text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;strong&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;strong&gt;Strong Text&lt/strong&gt;
+          </td>
+          <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Highlight text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;mark&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;mark&gt;Highlighted Text&lt/mark&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Strikethrough text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;s&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;s&gt;I am strikethrough Text&lt/s&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Subscript
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;sub&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;sub&gt;I am Subscripted Text&lt/sub&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Small Text
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;small&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;small&gt;I am Small Text&lt/small&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Address
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;address&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;address&gt;I am Addess&lt/address&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Texual Sitation
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;cite&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;cite&gt;I am Cited Text&lt/cite&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Superscript
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;sup&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;sup&gt;I am Superscripted Text&lt/sup&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Inline Quotation
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;q&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;q&gt;I am an Inline Quotation&lt/q&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Line Break
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;br&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            I am Line Break&ltbr&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          A Possible line Break
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;wbr&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          I am Possibe lIne Berak.
+          &lt;wbr&gt;
+          If I am too Long The I'll be break.
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          
+          Date
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;time&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;time&gt;I am time tag.You should Give me a value of date and time.&lt/time&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Code Format
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;code&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;code&gt;I am Written In Code Format &lt/code&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Audio
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;audio&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;audio&gt;I am Audio tag&lt/audio&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Video
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;video&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;video&gt;I am Video Tag&lt/video&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          A Simple Paragraph
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;p&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;p&gt;I am a Paragraph&lt/p&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          An Extended Quotation
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;blockquote&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;blockquote&gt;I am a MultiLine Quoatation Text&lt/blockquote&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Additional Information
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;details&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;details&gt;I am Details Tag&lt/details&gt;
+          </td>
+        </td>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Summary
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;summary&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;summary&gt;I am Summary Tag.I should be used inside a tetails tag&lt/suummary&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          An Unordered List
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;ul&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;ul&gt;I am an Unordered List&lt/ul&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          An Ordered List 
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;ol&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;ol&gt;I am an Orderded List&lt/ol&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          List Items
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;li&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;li&gt;I am a List Item Tag.I should be used inside an ordered list and an unordered List&lt/li&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          A Defination 
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dl&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dl&gt;I am a Defination&lt/dl&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          A Defination  child tag
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dt&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dt&gt;I am a Defination Word to be defined&lt/dt&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          A Defination another child
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dd&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;dd&gt;Data of word to be defined&lt/dd&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+           Horizontal Row
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;hr&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;hr&gt;I am a Horizontal Row&lthr&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          Headings 
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;h1&gt;
+            &lt;h2&gt;
+            &lt;h3&gt;
+            &lt;h4&gt;
+            &lt;h5&gt;
+            &lt;h6&gt;
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            &lt;h1&gt;I am a Heading 1&lt/h1&gt;
+            &lt;h2&gt;I am a Heading 2&lt/h2&gt;
+            &lt;h3&gt;I am a Heading 3&lt/h3&gt;
+            &lt;h4&gt;I am a Heading 4&lt/h4&gt;
+            &lt;h5&gt;I am a Heading 1&lt/h5&gt;
+            &lt;h6&gt;I am a Heading 1&lt/h6&gt;
+          </td>
+        </tr>
+        <tr
+          class="hover:bg-sky-500 border-2 border-slate-300 border-dashed transition-all duration-1000 ease-in-out hover:text-white"
+        >
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+          HTML BoilerPlate 
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            HTML BoilerPlate
+          </td>
+          <td
+            class="px-5 py-5 hover:text-3xl transition-all duration-1000 ease-in-out hover:text-white"
+          >
+            <div>
+              <pre>
+
+&lt;!DOCTYPE html&gt;
+              </pre>
+            </div>
+            <div> 
+&lt;html&gt;
+            </div>
+            <div>
+              <pre>
+    &lt;head&gt;
+              </pre>
+            </div>
+            <div>
+              <pre>
+
+      &lt;title&gt;
+              </pre>
+            </div>
+            <div>
+              <pre>
+        &lt;/title&gt;
+              </pre>
+            </div>
+            <div>
+              <pre>
+          &lt;link&gt;
+              </pre>
+
+            </div>
+            <div>
+              <pre>
+            &lt;/head&gt;
+              </pre>
+            </div>
+            <div>
+              <pre>
+              &lt;body&gt;
+              </pre>
+            </div>
+            <div>
+              <pre>
+                &lt;/body&gt;
+              </pre>
+
+            </div>
+            <div>
+
+              &lt;/html&gt;
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
+// Whenever the user explicitly chooses light mode
+localStorage.theme = 'light'
+
+// Whenever the user explicitly chooses dark mode
+localStorage.theme = 'dark'
+
+// Whenever the user explicitly chooses to respect the OS preference
+localStorage.removeItem('theme')module.exports = {
+  darkMode: 'class',
+  // ...
+}
+    </script>
+  </body>
+</html>

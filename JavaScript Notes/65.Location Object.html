@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Objects</title>
+</head>
+<body>
+    <button id="me" onclick="func()">Go</button>
+    <button id="me" onclick="nofunc()">Go</button>
+    <script>
+        function func() {
+            location.reload();
+            location.assign("https://www.google.com");
+        }
+        function nofunc() {
+            location.replace("https://www.google.com");
+        }
+    </script>
+</body>
+</html>

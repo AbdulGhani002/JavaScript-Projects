@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Event Listner Method</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="noid">Hello</h1>
+    </div>
+    <div id="footer">
+      <button id="button">Save Me</button>
+      <button id="button2">Save Us</button>
+    </div>
+    <script>
+      document.getElementById("header").style.backgroundColor = "green";
+      document.getElementById("header").onmouseenter = nbp;
+      function nbp() {
+        document.getElementById("header").style.backgroundColor = "blue";
+      }
+      document.getElementById("footer").addEventListener("click" , 
+      function()
+      {
+          document.getElementById("button").style.backgroundColor = "blue";
+      });
+      document.getElementById("footer").addEventListener("mouseenter" ,anc);
+      function anc()
+      {
+          document.getElementById("button2").style.backgroundColor = "hotpink";
+      }
+      document.getElementById("header").addEventListener("click" , function() 
+      {
+          this.style.border = "20px solid aqua";
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Method I</title>
+    <script>
+      let str = 
+      "Javascript is a great language.Javascript is the best language";
+      let a = str.length;
+      document.write(a , "<br>");
+      let b = str.toUpperCase();
+      document.write(b , "<br>");
+      let c = str.toLowerCase();
+      document.write(c , "<br>");
+      let d = str.includes("a");
+      document.write(d , "<br>");
+      let e = str.includes("ipt");
+      document.write(e , "<br>");
+      // startswith finds first word of variable
+      let f = str.startsWith("Javascript");
+      document.write(f , "<br>");
+      // endswith finds last word of variable
+      let g = str.endsWith("language");
+      document.write(g , "<br>");
+      let h = str.endsWith("language.");
+      document.write(h , "<br>");
+      //search finds positipon numbe rof the character
+      let i = str.search("is");
+      document.write(i , "<br>");
+      //match makes array of value finded to be
+      let j = str.match(/is/g);
+      document.write(j , "<br>");
+      let k = str.indexOf("is");
+      document.write(k , "<br>");
+      let l = str.lastIndexOf("is");
+      document.write(l , "<br>");
+      // replaces the targeted word
+      let m = str.replace("Javascript" , "PHP" );
+      document.write(m , "<br>");
+      let n = str.replace(/Javascript/g , "PHP" );
+      document.write(n , "<br>");
+      let q = str.charAt(12);
+      document.write(q , "<br>");
+      //charcodeat return ascii code
+      let r = str.charCodeAt(2);
+      document.write(r , "<br>");
+      //fromCharCode returm=ns ascii code of value
+      let s = String.fromCharCode(65);
+      document.write(s , "<br>");
+      // concat merges two or more strings into one
+      let t = str.concat(n);
+      document.write(t ,s, "<br>");
+      // converts sting values into arrays of strings
+      let v = str.split(" ");
+      document.write(v , "<br>");
+      //repeat repeats the string values
+      let w = str.repeat(2);
+      document.write(w , "<br>");
+      //slice cuts value before it written
+      let x = str.slice(3);
+      document.write(x , "<br>");
+      let y = str.slice(-3);
+      document.write(y , "<br>");
+      //substr works almost smae like slice
+      let z = str.substr(3);
+      document.write(z , "<br>");
+      let za = str.substr(3,10);
+      document.write(za , "<br>");
+      //substring works almost smae like slice
+      let zb = str.substring(3);
+      document.write(zb , "<br>");
+      let zc = str.substring(3,7);
+      document.write(zc , "<br>");
+      //tostring converts the variables into strings
+      let zd = 30;
+      let ze = zd.toString();
+      document.write(ze , "<br>");
+      document.write(ze + 20 , "<br>");
+      document.write(typeof ze , "<br>");
+      //valueof is default value of string
+      let zf = str.valueOf();
+      document.write(zf , "<br>");
+      // trim deletes extra spaces in string
+      let oi = "Java     Script";
+      let p = oi.trim();
+      alert(p);
+    </script>
+  </head>
+  <body></body>
+</html>

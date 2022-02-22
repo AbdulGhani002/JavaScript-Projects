@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <script>
+        let a = {
+            firstName : 'John',
+            lastName : 'Joe',
+            age : 36,
+            email : 'john@example.com',
+            country : 'United States',
+            favMovies : ["Dhoom" , "Gauardians"],
+            salary : function(){
+                return 195000;
+            },
+            fullname : function(){
+                return this.firstName + ' ' + this.lastName;
+            }
+        }
+        document.write(a);
+        console.log(a);
+        console.log(a.firstName);
+        console.log(a.lastName);
+        console.log(a.age);
+        console.log(a.favMovies);
+        console.log(a.salary());
+        document.write(a.email);
+        document.write(a.fullname());
+    </script>
+</head>
+<body>
+    <h1>Console</h1>
+</body>
+</html>

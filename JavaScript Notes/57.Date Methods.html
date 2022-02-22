@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date Methods</title>
+    <script>
+      let a = new Date();
+      document.write(a , "<br>");
+      document.write(a.toDateString() , "<br>");
+      document.write(a.getFullYear(), "<br>");
+      document.write(a.getDate(), "<br>");
+      document.write(a.getMonth(), "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+
+
+
+
+      let b = new Date("January 10 2023");
+      document.write(b , "<br>");
+      document.write(b.toDateString() , "<br>");
+      document.write(b.getFullYear(), "<br>");
+      document.write(b.getDate(), "<br>");
+      document.write(b.getMonth(), "<br>");
+      document.write(b.getDay(), "<br>");
+
+
+
+
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      let c = new Date();
+      document.write(c.getHours(), "<br>");
+      document.write(c.getMinutes(), "<br>");
+      document.write(c.getUTCMilliseconds(), "<br>");
+      document.write(c.getMilliseconds(), "<br>");
+      document.write(c.getSeconds(), "<br>");
+      document.write(c.getHours(), "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+      document.write( "<br>");
+
+
+
+
+      let d = new Date();
+      d.setDate(20);
+      d.setFullYear(2029);
+      d.setMonth(4);
+      d.setHours(14);
+      document.write(d , "<br>");
+
+
+
+      let i = new Date();
+      document.write(i.getDate() + "/" + i.getMonth() + 
+      "/" + i.getFullYear());
+    </script>
+  </head>
+  <body></body>
+</html>

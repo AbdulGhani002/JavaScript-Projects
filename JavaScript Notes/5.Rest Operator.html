@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Operators</title>
+</head>
+<body>
+    <script>
+        function sum(name,...arg)
+        {
+            console.log(arguments);
+            document.write(`Hello ${name} : <br>`)
+            let sum = 0;
+            for (let i in arg){
+                sum += arg[i];
+            }
+            document.write(sum + "<br>");
+        }
+
+        sum(20,30,90);
+        sum(30,30,90,180,360);
+        sum("Abdul Ghani",30,30,90,180,360);
+    </script>
+</body>
+</html>

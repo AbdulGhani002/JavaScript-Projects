@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Event Listner</title>
+    <style>
+        #ag
+        {
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: aquamarine;
+            position: absolute;
+            top: 0;
+            left: 35%;
+        }
+        #inner{
+            width: 250px;
+            height: 250px;
+            background-color: hotpink;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+  </head>
+  <body>
+      <div id="ag">
+          <div id="inner"></div>
+      </div>
+      <script>
+          document.getElementById("inner").addEventListener("click" , function(){
+              this.style.backgroundColor = "red";
+          } , true);
+          document.getElementById("ag").addEventListener("click" , function(){
+              this.style.backgroundColor = "black";
+          } , true);
+        //   document.removeEventListener("click" , function(){
+        //       documnet.getElementById("inner").removeEventListener("click");
+        //   })
+      </script>
+  </body>
+</html>
