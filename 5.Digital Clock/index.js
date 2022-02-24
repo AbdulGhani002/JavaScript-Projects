@@ -6,8 +6,10 @@ let time;
 setInterval(() => {
     
     a = new Date();
-    date = a.getFullYear(), a.getMonth(), a.getDate();
     date = a.getDay() + "/"+ a.getMonth()+ "/" + a.getFullYear();
     time = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds();
-    document.getElementById("time").innerHTML = time + "<br> on " + date;
+    /*
+    document.getElementById("time").textContent = time + " on ";
+    document.getElementById("time").textContent += date;*/
+    document.getElementById("time").textContent = time + " on " + date;
 }, 1000);
